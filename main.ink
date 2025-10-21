@@ -88,7 +88,7 @@ VAR has_5 = false
 = pismo
 -
 
-{ not has_1 = false and not has_2 and not has_3 and not has_4 and not has_5: Родила царица в ночь. Кого? }
+{ not has_1 = false and not has_2 and not has_3: Родила царица в ночь. Кого? }
 
 * {not has_1} [Ни то сына, ни то дочь]
     Царь: Ничего не понимаю, перечитаю еще раз.
@@ -177,6 +177,7 @@ VAR has_5 = false
 + [Царь выбрал третью сестру]
   С третьей сестрой я точно буду счастлив. -> intro
 -> END
+
 
 
 
