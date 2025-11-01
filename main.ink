@@ -392,7 +392,7 @@ VAR has_15 = false
 }
 = good_ending22
 #Location: pyat
-Ты прошед игру на отлично
+Ты прошел игру на отлично
 -> END
 = bad_ending22
 #Location: well
@@ -463,10 +463,24 @@ VAR has_15 = false
 -> tkach7
  = tkach7 
 { score > 100:
-    -> good_ending22
+    -> good_ending24
 - else:
-    -> bad_ending22
+    -> bad_ending25
 }
+= good_ending24
+#Location: pyat
+Ты прошел игру на отлично
+-> END
+= bad_ending25
+#Location: well
+Можно пройти еще раз и собрать все очки
+Переиграть?
++ [Нет, благодарю]
+  Вот и сказочке конец. Команда "Технопарк55" -> END
++ [Да, я еще не все варианты посмотрел]
+  Погнали играть!!! -> intro
+
+-> END
 
 
 === bad_ending2 ===
@@ -513,6 +527,7 @@ VAR has_15 = false
 + [Да, я еще не все варианты посмотрел]
   Погнали играть!!! -> intro
 -> END
+
 
 
 
