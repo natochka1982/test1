@@ -3,7 +3,6 @@
 // Вступление
 // ===================================
 VAR score = 0
-VAR player_leded = "Здравствуй, князь ты мой прекрасный! Что ж ты тих, как день ненастный? Опечалился чему?"
 VAR has_1 = false
 VAR has_2 = false
 VAR has_3 = false
@@ -22,7 +21,9 @@ VAR has_15 = false
 VAR has_p1 = false
 VAR has_p2 = false 
 VAR has_p3 = false 
-* [Рассказать историю о царе Салтане?]
+* [Рассказать историю о царе Салтане?] -> intro
+* [Пройти обучение] -> study
+* [Узнать об А.С. Пушкине] -> pushkin
 -> intro
 
 === intro ===
@@ -415,6 +416,14 @@ VAR has_p3 = false
   Погнали играть!!! -> intro
 
 -> END
+=== study ===
+Управление ЛКМ.
+
+-> END
+=== pushkin ===
+Александр Сергеевич Пушкин
+
+-> END
 
 === bad_ending1 ===
 #Location: BadEnd1
@@ -497,7 +506,6 @@ VAR has_p3 = false
   Погнали играть!!! # clear: -> intro
 
 -> END
-
 
 === bad_ending2 ===
 #Location: BadEnd4
@@ -623,6 +631,7 @@ VAR has_p3 = false
 + [Да, я еще не все варианты посмотрел]
   Погнали играть!!! # clear: -> intro
 -> END
+
 
 
 
