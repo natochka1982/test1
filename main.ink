@@ -556,7 +556,7 @@ VAR has_p3 = false
   Правильно.
  ~ score = score + 10
 Это из другой сказки А.С. Пушкина
-Вы набрали ~ return score
+Вы набрали + score
 -> tkach7
  = tkach7 
 { score > 100:
@@ -703,6 +703,7 @@ VAR has_p3 = false
 + [Да, я еще не все варианты посмотрел]
   Погнали играть!!! # clear: -> intro
 -> END
+
 
 
 
