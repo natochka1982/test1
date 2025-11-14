@@ -576,7 +576,7 @@ VAR has_p3 = false
 Можно пройти еще раз и собрать все очки
 Переиграть?
 + [Нет, благодарю]
-  Вот и сказочке конец. Команда "Технопарк55" Бонус - http://texnopark55.tilda.ws/  -> END
+  Вот и сказочке конец. Команда "Технопарк55" Бонус - texnopark55.tilda.ws  -> END
 + [Да, я еще не все варианты посмотрел]
   Погнали играть!!! # clear: -> intro
 
@@ -695,7 +695,7 @@ VAR has_p3 = false
 }
 = good_ending24
 #Location: pyat
-Ты прошел игру на отлично. Бонус - http://texnopark55.tilda.ws/
+Ты прошел игру на отлично. Бонус - texnopark55.tilda.ws
 -> END
 = bad_ending25
 #Location: well
@@ -706,6 +706,7 @@ VAR has_p3 = false
 + [Да, я еще не все варианты посмотрел]
   Погнали играть!!! # clear: -> intro
 -> END
+
 
 
 
